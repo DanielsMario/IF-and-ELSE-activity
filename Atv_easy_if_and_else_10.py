@@ -1,8 +1,8 @@
-turno = input("Qual turno você estuda?  M-matutino ou V-vespertino ou N-noturno: ")
+turno = input("What shift do you study? M-morning or V-evening or N-night:")
 
-if turno == "M" or turno == "matutino":
-    print("Bom dia!")
-elif turno == "V" or turno == "vesperino":
-    print("Boa noite!")
+if turno == "M" or turno == "morning":
+    print("Good Morning!")
+elif turno == "E" or turno == "evening":
+    print("Good Night!")
 else:
-    print("Valor inválido")
+    print("Invalid value")
